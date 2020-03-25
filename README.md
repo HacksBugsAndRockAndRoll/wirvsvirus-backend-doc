@@ -6,7 +6,7 @@ Die ID wird errechnet aus Daten, welche nur dem medizinischen Personal und dem P
 * Geburtsdatum des Patienten
 * Probennummer des beim Patienten durchgeführten Tests
 
-Diese ID wird erzugt unter Verwendung einer https://de.wikipedia.org/wiki/Kryptographische_Hashfunktion ( aktuell SHA256, beliebig austauschbar).
+Diese ID wird erzeugt unter Verwendung einer https://de.wikipedia.org/wiki/Kryptographische_Hashfunktion ( aktuell SHA256, beliebig austauschbar).
 Eine Eigenschaft einer Hashfunktion ist es, dass es nicht möglich ist aus dem berechneten Hash die Eingabedaten zu berechnen (das Backend kann diese Daten nicht de-anonymisieren).
 
 Der vorgeschlagene Prozess sieht vor, dass beim Eingang der Testergebnisse diese ID, das Ergebnis und sofern vorhanden die Kontaktinformation übertragen werden. 
